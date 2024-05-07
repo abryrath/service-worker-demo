@@ -1,0 +1,12 @@
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    volumes:
+      - ./api:/usr/app
+    expose:
+      - "3000"
+    ports:
+      - "3000:3000"
+    command: yarn run dev

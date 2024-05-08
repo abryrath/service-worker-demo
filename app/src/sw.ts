@@ -114,9 +114,3 @@ self.addEventListener('fetch', function(event) {
     );
   }
 })
-
-/**
- * Accessing Block where video links are
- * pageContent.onOffDemoItemBlocks[id].contentLink.expanded
- * id: 73417 <-- id of j.lo
-*/

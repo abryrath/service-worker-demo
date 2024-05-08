@@ -20,6 +20,19 @@ app.get('/', (req: Request, res: Response) => {
   res.json(data);
 });
 
+app.get('/episerver/api/example', (req: Request, res: Response) => {
+  const data = {
+    success: true,
+    body: {
+      dolbyOffLandscapeAsset: 'OFF video', // Add optimizely token here
+      dolbyOffPortraitAsset: 'OFF video portrait', // Add optimizely token here
+      dolbyOnLandscapeAsset: 'On video', // Remove enhanced
+      dolbyOnPortraitAsset: 'On video portrait'
+    },
+  }
+  res.json(data);
+})
+
 app.listen(port, () => {
   console.log(`[server]: Server is running on port ${port}`);
 });

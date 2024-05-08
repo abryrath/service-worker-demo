@@ -10,14 +10,14 @@ if (testBtn) {
 
 // #region service worker
 function interceptRequest() {
-  
+  console.log('testing interceptRequest function outside of ')
 }
 
 const serviceWorkerCode = `self.addEventListener('install', () => {
   console.log('install');
 });
 
-self.addEventListener('fetch', function(event) { interceptRequest });
+self.addEventListener('fetch', function(event) { interceptRequest() });
 `
 
 const serviceWorkerBlob = new Blob([serviceWorkerCode], { type: 'application/javascript' });

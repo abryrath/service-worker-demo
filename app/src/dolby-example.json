@@ -1,0 +1,38 @@
+{
+    "onOffDemoItemBlocks": [
+      {
+          "contentLink": {
+              "name": "J LO -- this is not a real prop in API",
+              "id": 73417,
+              "expanded": {
+                  "dolbyOnPortraitAsset": {
+                      "hlsVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231221/Love_More/JLO/SDRS_Bin_vs_Stereo/portrait/unencrypted/hls/LM_JLO-Destination_SDR-9x16_A-Binaural_vs_Stereo_SDRS_manifest-priority.m3u8",
+                      "mpegDashVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231221/Love_More/JLO/SDRS_Bin_vs_Stereo/portrait/unencrypted/dash/LM_JLO-Destination_SDR-9x16_A-Binaural_vs_Stereo_SDRS_manifest-priority.mpd"
+                  },
+                  "dolbyOnLandscapeAsset": {
+                      "hlsVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231221/Love_More/JLO/SDRS_Bin_vs_Stereo/landscape/unencrypted/hls/LM_JLO-Destination_SDR_A-Binaural_vs_Stereo_SDRS_manifest-priority.m3u8",
+                      "mpegDashVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231221/Love_More/JLO/SDRS_Bin_vs_Stereo/landscape/unencrypted/dash/LM_JLO-Destination_SDR_A-Binaural_vs_Stereo_SDRS_manifest-priority.mpd"
+                  }
+              }
+          }
+      },
+      {
+          "contentLink": {
+              "name": "ED -- this is not a real prop in API",
+              "id": 73418,
+              "expanded": {
+                  "dolbyOnPortraitAsset": {
+                      "isVideo": true,
+                      "hlsVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Portrait/unencrypted/hls/LM_ES-Destination_SDR-9x16_A-Binaural_vs_Stereo_SDRS_manifest-priority.m3u8",
+                      "mpegDashVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Portrait/unencrypted/dash/LM_ES-Destination_SDR-9x16_A-Binaural_vs_Stereo_SDRS_manifest-priority.mpd"
+                  },
+                  "dolbyOnLandscapeAsset": {
+                      "isVideo": true,
+                      "hlsVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Landscape/unencrypted/hls/LM_ES-Destination_SDR_A-Binaural_vs_Stereo_SDRS_manifest-priority.m3u8",
+                      "mpegDashVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Landscape/unencrypted/dash/LM_ES-Destination_SDR_A-Binaural_vs_Stereo_SDRS_manifest-priority.mpd"
+                  }
+              }
+          }
+      }
+    ]
+  }

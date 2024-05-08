@@ -22,12 +22,10 @@
               "id": 73418,
               "expanded": {
                   "dolbyOnPortraitAsset": {
-                      "isVideo": true,
                       "hlsVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Portrait/unencrypted/hls/LM_ES-Destination_SDR-9x16_A-Binaural_vs_Stereo_SDRS_manifest-priority.m3u8",
                       "mpegDashVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Portrait/unencrypted/dash/LM_ES-Destination_SDR-9x16_A-Binaural_vs_Stereo_SDRS_manifest-priority.mpd"
                   },
                   "dolbyOnLandscapeAsset": {
-                      "isVideo": true,
                       "hlsVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Landscape/unencrypted/hls/LM_ES-Destination_SDR_A-Binaural_vs_Stereo_SDRS_manifest-priority.m3u8",
                       "mpegDashVideoUrl": "https://experience-media.dolby.com/Dolby.com/20231227/Love_More/Ed_Sheeran/SDRS/Landscape/unencrypted/dash/LM_ES-Destination_SDR_A-Binaural_vs_Stereo_SDRS_manifest-priority.mpd"
                   }
